@@ -1,0 +1,84 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+  font-size: 20px;
+  font-family: "livory",serif;
+  background: url('../assets/ticks.png');
+  color: #230305;
+  width:100%;
+}
+
+.navbar {
+  background: url('../assets/ticks.png');
+  color: #FFF;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1,h2 {
+  font-family: "livory",serif;
+  font-size: 2em;
+  font-style: italic;
+  font-kerning: normal; /* Safari 7+, Firefox 24+, Chrome 33(?)+, Opera 21+*/
+}
+
+p { 
+  margin-top: 0;
+  margin-bottom: 0;
+  text-indent: 1em;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  max-width: 30em;
+  text-rendering: optimizeLegibility; /* optional: for older browsers */
+
+  font-variant-ligatures: common-ligatures; 
+  font-variant-numeric: oldstyle-nums;
+  font-variant-numeric: diagonal-fractions;
+
+
+  -moz-font-feature-settings: "kern=1","liga=1, dlig=1","onum=1","frac=1";/* pre-Firefox 14+ */
+  -ms-font-feature-settings:"liga" 1, "dlig" 1,"calt" 1,"onum" 1,"frac" 1;
+  -webkit-font-feature-settings: "kern" 1,"liga" 1, "dlig" 1, "onum" 1;
+  -o-font-feature-settings:"liga", "dlig","onum","frac";
+  -moz-font-feature-settings: "kern", "liga", "dlig","calt","onum","frac"; /* Firefox 14+ */
+  font-feature-settings: "kern" 1,"liga" 1,"dlig" 1,"calt" 1,"onum" 1,"frac" 1; /* standard */
+  font-kerning: normal; /* Safari 7+, Firefox 24+, Chrome 33(?)+, Opera 21+*/
+
+  -ms-word-break: break-all;
+  word-break: break-all;
+
+  word-break: break-word;
+
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+
+p:first-of-type {
+  text-indent: 0;
+}
+
+a:link {
+  color: #D5401A;
+}
+
+a:visited {
+  color: #AA1D11;
+}
+
+a:hover {
+  color: #E17818;
+}
+
+a:active {
+  color: #E1AD7E;
+  background-color: #D5401A;
+}
+
+::selection {
+  background: palegoldenrod; /* Safari */
+  }
+
+::-moz-selection {
+  background: palegoldenrod; /* Firefox */
+}
